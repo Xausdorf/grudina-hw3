@@ -1,0 +1,8 @@
+site_name: Групповая динамика ДЗ-4
+# using not docs/ dir, because we have .md files in content
+docs_dir: mkdocs_src
+nav:
+  - Home: index.md
+  - Content: content/
+theme:
+  name: material

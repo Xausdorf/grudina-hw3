@@ -1,0 +1,32 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+
+      - name: Collect .md files into one folder
+        shell: bash
+        run: |
+          mkdir -p mkdocs_src
+          mkdir -p mkdocs_src/docs
+          mkdir -p mkdocs_src/content
+
+          cp docs/*.md mkdocs_src/docs
+          cp content/*.md mkdocs_src/content
+          cp README.md mkdocs_src/index.md
+
+      - name: Deploy mkdocs
+        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CONFIG_FILE: mkdocs/mkdocs.yml
+          REQUIREMENTS: mkdocs/requirements.txt
