@@ -1,13 +1,13 @@
 # CI/CD в проекте
 
-Реализовано с помощью GitHub Actions.  
+Реализовано с помощью GitHub Actions.
 
 ## Ручные апрувы PR
 
 Для выполнения требований ДЗ на +1 балл, апрувы делаются не с помощью встроенного инструмента GitHub.
 
 Они делаются с помощью джобы [manual-approval.yml](https://github.com/Xausdorf/grudina-hw3/blob/main/.github/workflows/manual-approval.yml).
-Она создает issue в котором как минимум 3 человека из команды должны написать комментарий `approve` чтобы апрувнуть. 
+Она создает issue в котором как минимум 3 человека из команды должны написать комментарий `approve` чтобы апрувнуть.
 При этом эта джоба является status check'ом в PR, поэтому нельзя будет замерджить до апрува.
 
 ![Пример ручного апрува](https://github.com/Xausdorf/grudina-hw3/blob/main/assets/approve_example.png)
