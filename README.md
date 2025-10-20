@@ -10,11 +10,11 @@
 
 Подписанные документы:
 
-* [Анкета для заказчика](https://github.com/Xausdorf/grudina-hw3/blob/main/content/questionnaire.pdf)
+- [Анкета для заказчика](https://github.com/Xausdorf/grudina-hw3/blob/main/content/questionnaire.pdf)
 
-* [Протокол встречи](https://github.com/Xausdorf/grudina-hw3/blob/main/content/meeting_protocol.pdf)
+- [Протокол встречи](https://github.com/Xausdorf/grudina-hw3/blob/main/content/meeting_protocol.pdf)
 
-* [План коммуникаций](https://github.com/Xausdorf/grudina-hw3/blob/main/content/communication_plan.pdf)
+- [План коммуникаций](https://github.com/Xausdorf/grudina-hw3/blob/main/content/communication_plan.pdf)
 
 ## Внесение изменений
 
