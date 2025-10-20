@@ -1,7 +1,7 @@
 name: Manual approval
 
 on:
-  push:
+  pull_request:
     branches:
       - main
 
