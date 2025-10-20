@@ -9,6 +9,7 @@ nav:
   - О проекте: index.md
   - Анкета для извлечения требований: content/questionnaire.md
   - Инструкция для внесения изменений: docs/contribution.md
+  - CI/CD: docs/ci-cd.md
 theme:
   name: material
   icon:

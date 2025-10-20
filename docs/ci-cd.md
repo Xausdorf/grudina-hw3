@@ -10,7 +10,7 @@
 Она создает issue в котором как минимум 3 человека из команды должны написать комментарий `approve` чтобы апрувнуть.
 При этом эта джоба является status check'ом в PR, поэтому нельзя будет замерджить до апрува.
 
-![Пример ручного апрува](https://github.com/Xausdorf/grudina-hw3/blob/main/assets/approve_example.png)
+![Пример ручного апрува](https://github.com/Xausdorf/grudina-hw3/blob/main/assets/approve_example.png?raw=true)
 
 ## Автоформатирование кода
 
