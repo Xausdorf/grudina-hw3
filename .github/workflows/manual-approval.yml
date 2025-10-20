@@ -1,0 +1,17 @@
+name: Manual approval
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  approval:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Manual approval
+        uses: trstringer/manual-approval@v1
+        with:
+          secret: ${{ github.TOKEN }}
+          approvers: Xausdorf,Jambuuul,Vladisluv12,Polinushkin
+          minimum-approvals: 3
