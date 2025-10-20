@@ -1,8 +1,17 @@
-site_name: Групповая динамика ДЗ-4
+site_name: Групповая динамика ДЗ-3
+
 # using not docs/ dir, because we have .md files in content
 docs_dir: mkdocs_src
+
+repo_url: https://https://github.com/Xausdorf/grudina-hw3/
+
 nav:
-  - Home: index.md
-  - Content: content/
+  - О проекте: index.md
+  - Анкета для извлечения требований: content/questionnaire.md
+  - Инструкция для внесения изменений: docs/contribution.md
 theme:
   name: material
+  icon:
+    logo: material/book
+  palette:
+    scheme: slate
