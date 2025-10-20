@@ -3,7 +3,7 @@ site_name: Групповая динамика ДЗ-3
 # using not docs/ dir, because we have .md files in content
 docs_dir: mkdocs_src
 
-repo_url: https://https://github.com/Xausdorf/grudina-hw3/
+repo_url: https://github.com/Xausdorf/grudina-hw3/
 
 nav:
   - О проекте: index.md
